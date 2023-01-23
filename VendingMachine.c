@@ -32,7 +32,7 @@ unsigned int mstep;
 #define anti_clockwise 1 // anti clockwise direction macro
 // End of definition for stepper variables
 
-// Start Lcd module connections
+// Start Lcd module connections 
 #define RS RD0_bit  /*PIN 0 of PORTB is assigned for register select Pin of LCD*/
 #define EN RD1_bit  /*PIN 1 of PORTB is assigned for enable Pin of LCD */
 #define ldata PORTD  /*PORTB(PB4-PB7) D4-D7 is assigned for LCD Data Output*/
